@@ -1,3 +1,6 @@
+<?php
+require_once 'checkauth.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +12,7 @@
     </style>
 </head>
 <body>
-<iframe class="if1" src="post.html"></iframe>
-<iframe class="if2" src="getContent.php"></iframe>
+<iframe class="if1" src="post.php?auth=<?php echo $_GET['auth'];?>"></iframe>
+<iframe class="if2" src="getContent.php?auth=<?php echo $_GET['auth'];?>"></iframe>
 </body>
 </html>

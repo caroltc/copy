@@ -1,5 +1,6 @@
 <?php
 require 'cls_mysql.php';
+require_once 'checkauth.php';
 $config_data = array(
     'host' => '192.168.1.13',
     'username' => '1c67d795-953a',
