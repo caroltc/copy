@@ -7,8 +7,8 @@ require_once 'checkauth.php';
     <meta charset="UTF-8">
     <title>Copy</title>
     <style>
-        .if1{ width: 100%; height: 200px; border: 0;}
-        .if2{ width: 100%; height: 200px; border: 0;}
+        .if1{ width: 100%; height: 160px; border: 0;}
+        .if2{ width: 100%; min-height: 700px; border: 0;}
     </style>
 </head>
 <body>
