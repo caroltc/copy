@@ -1,6 +1,6 @@
 <html>
 <head>
-    <meta http-equiv="refresh" content="3">
+    <meta http-equiv="refresh" content="20">
 </head>
 <body>
 <?php
